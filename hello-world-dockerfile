@@ -1,0 +1,7 @@
+FROM ubuntu
+
+MAINTAINER DINESH
+
+RUN apt-get update
+
+CMD ["echo","Hello World! This is my first image"]
